@@ -1,0 +1,41 @@
+.button {
+    display: inline-block;
+    padding: .75rem 5rem;    
+    background-color: tomato;
+    border: 1px solid darkred;
+    color: white;
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+.button:hover {
+    background-color: darkred;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    line-height: 1.4em;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans',Arial,sans-serif;
+    background-image: linear-gradient(45deg, #3494E6, #EC6EAD);
+}
+h1 {
+    line-height: 1.4em;
+}
+.content {
+    margin: auto;
+    width: 99vw;
+    max-width: 860px;
+    background-color: rgba(255, 255, 255, .75);
+    padding: 5rem;
+}
+
+.resources {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
